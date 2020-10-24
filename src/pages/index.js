@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <SEO />
     <Base>
-      this is my site
+      <p>Main</p>
     </Base>
     </>
   )

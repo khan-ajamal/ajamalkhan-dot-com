@@ -1,7 +1,11 @@
 import React from "react"
 
 const Header = () => (
-    <header>Header</header>
+    <header className="w-screen">
+        <div className="container">
+            header
+        </div>
+    </header>
 )
 
 export default Header
