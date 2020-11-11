@@ -1,3 +1,3 @@
 # My portfolio
 
-> [ajamalkha.com](ajamalkha.com)
+> [ajamalkhan.com](ajamalkhan.com)
