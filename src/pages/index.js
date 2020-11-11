@@ -6,8 +6,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Base from "../components/base"
 import SEO from "../components/seo"
 
-import styles from "../css/home.module.css"
-
 export default function Home() {
   const {
     profilePic,
@@ -59,9 +57,12 @@ export default function Home() {
     <>
       <SEO />
       <Base>
-        <div className={styles.container}>
-          <div className={styles.card}>
-            <div className={styles.profilePic}>
+        <div className="flex justify-center items-center p-4 bg-darkBlue w-screen h-screen">
+          <div
+            className="flex flex-col justify-center items-center p-8 rounded-md bg-cream w-full h-full max-w-lg sm:w-7/12 sm:h-auto md:w-1/2"
+            style={{ boxShadow: "0px 0px 5px 0px rgba(255, 255, 255, 0.75)" }}
+          >
+            <div className="w-56 h-56 rounded-full">
               <Img
                 imgStyle={{ borderRadius: "100%" }}
                 fluid={profilePic.childImageSharp.fluid}

@@ -9,6 +9,10 @@ module.exports = {
       center: true,
     },
     extend: {
+      colors: {
+        darkBlue: "#272e4f",
+        cream: "#f2f2f0",
+      },
       fontFamily: {
         body: ["Poppins"],
       },
