@@ -11,18 +11,12 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Poppins:400,500"],
+          families: ["Poppins:400,500&display=swap"],
         },
       },
     },
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "G-KC48JNLLFB",
-      },
-    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {

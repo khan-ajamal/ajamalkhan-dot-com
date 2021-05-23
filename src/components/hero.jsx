@@ -72,16 +72,16 @@ const Hero = () => {
             alt="Ajamal Khan"
           />
         </div>
-        <h1 className="mt-4 font-medium text-2xl text-center">
+        <h1 className="mt-4 text-darkBlue font-medium text-2xl text-center">
           <span className="hidden md:inline-block">Mohammad</span> Ajamal Khan
         </h1>
-        <h2 className="mb-8 font-normal text-base text-center">
+        <h2 className="mb-8 text-darkBlue font-normal text-base text-center">
           Senior Software Engineer
           <a
             target="_blank"
             rel="noreferrer"
             href="https://www.chefling.com/"
-            className="inline-block ml-1 text-green-500"
+            className="inline-block ml-1 text-green-600"
           >
             @chefling
           </a>
