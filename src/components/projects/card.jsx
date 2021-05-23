@@ -10,7 +10,7 @@ const Card = ({ title, description, url }) => {
           href={url}
           target="_blank"
           rel="noreferrer"
-          className="text-green-600 text-base"
+          className="text-yellow-500 text-base"
         >
           Check Demo
         </a>

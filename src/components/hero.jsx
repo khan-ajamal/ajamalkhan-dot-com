@@ -81,7 +81,7 @@ const Hero = () => {
             target="_blank"
             rel="noreferrer"
             href="https://www.chefling.com/"
-            className="inline-block ml-1 text-green-600"
+            className="inline-block ml-1 text-yellow-500"
           >
             @chefling
           </a>
