@@ -12,8 +12,8 @@ const Projects = () => {
     },
   ]
   return (
-    <div className="container px-8 mb-16">
-      <h2 className="text-3xl mt-8 mb-4">Projects</h2>
+    <div className="container px-8 mb-16" id="projects">
+      <h2 className="text-2xl mt-8 mb-4 font-medium">Projects</h2>
       <ul className="flex flex-wrap">
         {projects.map(project => (
           <Card {...project} key={project} />

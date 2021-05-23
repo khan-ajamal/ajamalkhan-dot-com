@@ -8,27 +8,23 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        fonts: [
-          {
-            family: `Poppins`,
-            variants: [`300`, `400`, `500`, `600`],
-          },
-        ],
+        google: {
+          families: ["Poppins:400,500"],
+        },
       },
     },
-    `gatsby-plugin-postcss`,
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-image",
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-google-analytics",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
+        trackingId: "G-KC48JNLLFB",
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -104,6 +100,15 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sitemap`,
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images/`,
+      },
+      __key: "images",
+    },
   ],
 }
