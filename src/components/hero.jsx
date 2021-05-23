@@ -62,7 +62,7 @@ const Hero = () => {
   return (
     <div className="flex justify-center items-center md:p-4 bg-darkBlue w-screen h-screen">
       <div
-        className="flex flex-col justify-center items-center p-8 md:rounded-md bg-cream w-full h-full max-w-lg sm:w-7/12 sm:h-auto md:w-1/2"
+        className="flex flex-col justify-center items-center p-8 md:rounded-md bg-white w-full h-full max-w-lg sm:w-7/12 sm:h-auto md:w-1/2"
         style={{ boxShadow: "0px 0px 5px 0px rgba(255, 255, 255, 0.75)" }}
       >
         <div className="w-56 h-56 rounded-full">
@@ -72,10 +72,10 @@ const Hero = () => {
             alt="Ajamal Khan"
           />
         </div>
-        <h1 className="mt-4 font-medium text-2xl text-center">
+        <h1 className="mt-4 text-darkBlue font-medium text-2xl text-center">
           <span className="hidden md:inline-block">Mohammad</span> Ajamal Khan
         </h1>
-        <h2 className="mb-8 font-normal text-base text-center">
+        <h2 className="mb-8 text-darkBlue font-normal text-base text-center">
           Senior Software Engineer
           <a
             target="_blank"
