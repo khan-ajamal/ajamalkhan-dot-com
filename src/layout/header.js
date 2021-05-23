@@ -1,7 +1,7 @@
 import React from "react"
 
 import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Header = () => {
   const { logo } = useStaticQuery(graphql`
@@ -18,9 +18,16 @@ const Header = () => {
 
   return (
     <header className="absolute w-screen bg-transparent px-4 h-20">
-      <div className="container h-full w-full bg-transparent flex justify-start items-center">
+      <div className="h-full w-full bg-transparent flex justify-between items-center">
         <div className="w-12 h-12">
           <Img fixed={logo.childImageSharp.fixed} alt="Ajamal's Website" />
+        </div>
+        <div className="w-full h-full text-white flex justify-end items-center px-8">
+          <ul>
+            <li className="text-xl">
+              <Link to="#projects">Projects</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
