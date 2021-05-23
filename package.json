@@ -1,8 +1,8 @@
 {
-  "name": "backup-site",
+  "name": "ajamalkhan-dot-com",
   "version": "1.0.0",
   "private": true,
-  "description": "backup-site",
+  "description": "Ajamal Khan's portfolio site build using Gatsby",
   "author": "Ajamal Khan",
   "keywords": [
     "gatsby"
