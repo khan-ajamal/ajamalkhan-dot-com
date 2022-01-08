@@ -76,14 +76,14 @@ const Hero = () => {
           <span className="hidden md:inline-block">Mohammad</span> Ajamal Khan
         </h1>
         <h2 className="mb-8 text-darkBlue font-normal text-base text-center">
-          Senior Software Engineer
+          Software Engineer
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.chefling.com/"
-            className="inline-block ml-1 text-green-500"
+            href="https://www.marrow.com/"
+            className="inline-block ml-1 text-blue-400"
           >
-            @chefling
+            @marrow
           </a>
         </h2>
         <div className="flex justify-center items-center space-x-4">
@@ -122,7 +122,7 @@ const Hero = () => {
               aria-label="Checkout Ajamal's Medium profile"
               rel="noreferrer"
               target="_blank"
-              href="https://medium.com/@ajamalkhan65"
+              href="https://ajamalkhan.medium.com"
               className="flex justify-center items-center rounded-full h-10 w-10 bg-white shadow"
             >
               <GatsbyImage
